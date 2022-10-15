@@ -3,8 +3,7 @@
 #include <stdio.h>
 /**
 * more headers goes there
-*betty style doc for function main 
-goes there 
+*betty style doc for function main goesthere
 */
 
 int main(void)
@@ -23,7 +22,7 @@ printf("%d is negative\n", n);
 else printf("%d is zero\n", n);
 
 /**
-*  your code goes there 
+*  your code goes there
 */
 return (0);
 }
