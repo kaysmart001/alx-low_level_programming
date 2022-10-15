@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 
 /*
 *This codes is to write a to z
@@ -13,6 +13,8 @@ for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
 putchar('\n');
 
+/*
+* to print a to z
+*/
 return (0);
 }
-
