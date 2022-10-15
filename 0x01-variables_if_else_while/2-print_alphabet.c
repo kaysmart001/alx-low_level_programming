@@ -1,6 +1,6 @@
 #include <stdio.h>
 
- int main(void)
+int main()
 
 /*
 *This codes is to write a to z
