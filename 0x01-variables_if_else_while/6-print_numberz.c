@@ -2,8 +2,8 @@
 int main (void)
 
 {
-char no;
-for (no = '0'; no <= '9'; no++)
+int no;
+for (no = 0; no <= 9; no++)
 putchar(no);
 putchar('\n');
 
