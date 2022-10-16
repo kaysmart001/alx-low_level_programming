@@ -31,7 +31,8 @@ else
 printf("Last digit of %d is %d and is 0\n", n, ld);
 
 
-//your code goes there
+/*
+ * your code goes there
+*/
 					return (0);
 }
-
