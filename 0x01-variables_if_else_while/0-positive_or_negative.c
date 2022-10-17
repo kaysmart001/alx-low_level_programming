@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* more headers goes there
-*betty style doc for function main goesthere
+*main - print a random  number and tell if its positive, negative  or zero 
+*Return: Return 0
 */
 
 int main(void)
@@ -16,7 +16,8 @@ printf("%d is positive\n", n);
 else
 if (n < 0)
 printf("%d is negative\n", n);
-else printf("%d is zero\n", n);
+else
+printf("%d is zero\n", n);
 
-return (0); 
+return (0);
 }
