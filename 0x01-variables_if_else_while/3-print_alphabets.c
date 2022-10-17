@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+  *main - print a to z in lowercase then in uppercase
+  *Return: Return 0
+  */
+
 int main(void)
 {
 char ch;
