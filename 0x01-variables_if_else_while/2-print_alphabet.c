@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-int main(void)
+/**
+ *main  - print a to z in lowercase
+ *Return: Return 0
+ */
 
-/*
-*This codes is to write a to z
-*/
+int main(void)
 
 {
 char ch;
