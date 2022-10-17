@@ -1,4 +1,10 @@
 #include <stdio.h>
+
+/**
+  *main - print alphabet in reverse order that is from z to a
+  *Return: Return 0
+  */
+
 int main(void)
 
 {
