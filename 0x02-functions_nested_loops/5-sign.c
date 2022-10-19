@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * print_sign(int n) - show and print If a number is positive, negative or zero
+* print_sign(int n) - show and print If a number is positive, negative or zero
   * Return: 1, 0
   */
 
@@ -21,7 +21,7 @@ int print_sign(int n)
 	return (1);
 }
 else
-		_putchar(0);
+		_putchar('0');
 	return (0);
 }
 }
