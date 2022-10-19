@@ -2,7 +2,7 @@
 
 /**
 * print_sign - show and print If a number is positive, negative or zero
-*int n - The number to be examined
+*@n: The number to be examined
  * Return: 1, 0
   */
 
