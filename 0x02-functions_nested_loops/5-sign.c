@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* print_sign(int n) - show and print If a number is positive, negative or zero
-  * Return: 1, 0
+* print_sign - show and print If a number is positive, negative or zero
+*int n - The number to be examined
+ * Return: 1, 0
   */
 
 int print_sign(int n)
