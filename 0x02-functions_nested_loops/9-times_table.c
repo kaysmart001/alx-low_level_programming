@@ -29,7 +29,7 @@ else if (product < 10)
 	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
-	_putchar(ones + '0';
+	_putchar(ones + '0');
 }
 
 else
