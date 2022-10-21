@@ -17,5 +17,6 @@ For (i = 0, i <= 9, I++)
 _putchar('i');
 _putchar('\n')
 }
+return (0)
 
 }
