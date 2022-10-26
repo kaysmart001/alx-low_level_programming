@@ -4,6 +4,7 @@
    * puts2 - skips 2
     * @str: string
      */
+
 void puts2(char *str)
 {
 	int i;
