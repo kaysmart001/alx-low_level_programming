@@ -7,7 +7,7 @@
   * @argv: arguement vector
   * @a: the first arguement
   * @b: the second arguement
-  * Return: always 0
+  * Return:1
   */
 
 int main(int argc, char *argv[])
