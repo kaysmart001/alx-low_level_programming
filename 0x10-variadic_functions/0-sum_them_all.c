@@ -1,23 +1,26 @@
-#include <stdio.h>
-#include <stdarg.h>
+#include "variadic_functions.h"
 
-int sumall(int args, ...);
 
-int main(void)
-{
-	printf("addition 1 = %d\n", sumall(3, 10, 3, 2));
-	return (0);
-}
+/**
+ * sum_the_all - sum the list of arguments
+  *@a: for loop
+  *@sum: total sum
+  */
 
-int sumall(int args, ...)
+int sum_them_all(const unsigned int n, ...)
 	{
 	
 	va_list list;
 
+	unsigned int a;
+
+	int sum = 0;
+
+	if (n == 0)
+	return();
+
 	va_start(list, args);
 
-	int a, sum = 0;
-	
 	for (a = 0; a < args; a++)
 		{
 		sum += va_arg(list, int);
